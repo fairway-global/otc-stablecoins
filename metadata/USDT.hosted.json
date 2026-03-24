@@ -1,0 +1,25 @@
+{
+  "name": "Tether USD (Mock)",
+  "symbol": "USDT",
+  "description": "Mock USDT for OTC desk testing",
+  "image": "https://raw.githubusercontent.com/YOUR_USER/YOUR_REPO/main/metadata/USDT.svg",
+  "external_url": "",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Mock Stablecoin"
+    },
+    {
+      "trait_type": "Network",
+      "value": "Solana Devnet"
+    },
+    {
+      "trait_type": "Decimals",
+      "value": "6"
+    },
+    {
+      "trait_type": "Program",
+      "value": "Token-2022"
+    }
+  ]
+}

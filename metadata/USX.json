@@ -1,0 +1,29 @@
+{
+  "name": "USX (Mock)",
+  "symbol": "USX",
+  "description": "Mock USX Solstice synthetic stablecoin for OTC desk testing on Solana devnet",
+  "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiB2aWV3Qm94PSIwIDAgMjU2IDI1NiI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJiZyIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3R5bGU9InN0b3AtY29sb3I6IzBBMEYxRTtzdG9wLW9wYWNpdHk6MSIgLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiMwNjBCMTQ7c3RvcC1vcGFjaXR5OjEiIC8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PGNpcmNsZSBjeD0iMTI4IiBjeT0iMTI4IiByPSIxMjQiIGZpbGw9InVybCgjYmcpIiAvPjxjaXJjbGUgY3g9IjEyOCIgY3k9IjEyOCIgcj0iMTA4IiBmaWxsPSJub25lIiBzdHJva2U9IiMwMEYwQ0MiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLW9wYWNpdHk9IjAuMyIgLz48Y2lyY2xlIGN4PSIxMjgiIGN5PSIxMjgiIHI9Ijk2IiBmaWxsPSJub25lIiBzdHJva2U9IiMwMEYwQ0MiIHN0cm9rZS13aWR0aD0iMC41IiBzdHJva2Utb3BhY2l0eT0iMC4xNSIgLz48dGV4dCB4PSIxMjgiIHk9IjEzNiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9ImNlbnRyYWwiIGZvbnQtZmFtaWx5PSJIZWx2ZXRpY2EgTmV1ZSxBcmlhbCxzYW5zLXNlcmlmIiBmb250LXNpemU9IjMyIiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjMDBGMENDIj5VU1g8L3RleHQ+PHRleHQgeD0iMTI4IiB5PSIxOTUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJIZWx2ZXRpY2EgTmV1ZSxBcmlhbCxzYW5zLXNlcmlmIiBmb250LXNpemU9IjgiIGZvbnQtd2VpZ2h0PSI1MDAiIGZpbGw9IiMwMEYwQ0MiIG9wYWNpdHk9IjAuNSIgbGV0dGVyLXNwYWNpbmc9IjIiPlNPTFNUSUNFPC90ZXh0PjxyZWN0IHg9IjgwIiB5PSI0OCIgd2lkdGg9Ijk2IiBoZWlnaHQ9IjIwIiByeD0iMTAiIGZpbGw9IiMwMEYwQ0MiIGZpbGwtb3BhY2l0eT0iMC4xNSIgLz48dGV4dCB4PSIxMjgiIHk9IjYyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iSGVsdmV0aWNhIE5ldWUsQXJpYWwsc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMCIgZm9udC13ZWlnaHQ9IjYwMCIgZmlsbD0iIzAwRjBDQyIgb3BhY2l0eT0iMC45IiBsZXR0ZXItc3BhY2luZz0iMiI+REVWTkVUPC90ZXh0Pjwvc3ZnPg==",
+  "external_url": "https://solstice.finance/usx",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Mock Stablecoin"
+    },
+    {
+      "trait_type": "Network",
+      "value": "Solana Devnet"
+    },
+    {
+      "trait_type": "Decimals",
+      "value": "6"
+    },
+    {
+      "trait_type": "Program",
+      "value": "Token-2022"
+    },
+    {
+      "trait_type": "Issuer",
+      "value": "Solstice Labs (Mock)"
+    }
+  ]
+}
