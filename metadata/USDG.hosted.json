@@ -2,7 +2,7 @@
   "name": "Global Dollar (Mock)",
   "symbol": "USDG",
   "description": "Mock USDG for OTC desk testing",
-  "image": "https://raw.githubusercontent.com/YOUR_USER/YOUR_REPO/main/metadata/USDG.svg",
+  "image": "https://raw.githubusercontent.com/fairway-global/otc-stablecoins/main/metadata/USDG.svg",
   "external_url": "",
   "attributes": [
     {

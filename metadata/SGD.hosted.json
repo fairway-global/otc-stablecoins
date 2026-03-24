@@ -2,7 +2,7 @@
   "name": "Singapore Dollar Stable (Mock)",
   "symbol": "SGD",
   "description": "Mock SGD for OTC desk testing",
-  "image": "https://raw.githubusercontent.com/YOUR_USER/YOUR_REPO/main/metadata/SGD.svg",
+  "image": "https://raw.githubusercontent.com/fairway-global/otc-stablecoins/main/metadata/SGD.svg",
   "external_url": "",
   "attributes": [
     {

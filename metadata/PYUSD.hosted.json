@@ -2,7 +2,7 @@
   "name": "PayPal USD (Mock)",
   "symbol": "PYUSD",
   "description": "Mock PYUSD for OTC desk testing",
-  "image": "https://raw.githubusercontent.com/YOUR_USER/YOUR_REPO/main/metadata/PYUSD.svg",
+  "image": "https://raw.githubusercontent.com/fairway-global/otc-stablecoins/main/metadata/PYUSD.svg",
   "external_url": "",
   "attributes": [
     {

@@ -2,7 +2,7 @@
   "name": "UAE Dirham Stable (Mock)",
   "symbol": "AED",
   "description": "Mock AED for OTC desk testing",
-  "image": "https://raw.githubusercontent.com/YOUR_USER/YOUR_REPO/main/metadata/AED.svg",
+  "image": "https://raw.githubusercontent.com/fairway-global/otc-stablecoins/main/metadata/AED.svg",
   "external_url": "",
   "attributes": [
     {

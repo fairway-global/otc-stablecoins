@@ -2,7 +2,7 @@
   "name": "Japanese Yen Stable (Mock)",
   "symbol": "JPY",
   "description": "Mock JPY for OTC desk testing",
-  "image": "https://raw.githubusercontent.com/YOUR_USER/YOUR_REPO/main/metadata/JPY.svg",
+  "image": "https://raw.githubusercontent.com/fairway-global/otc-stablecoins/main/metadata/JPY.svg",
   "external_url": "",
   "attributes": [
     {

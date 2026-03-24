@@ -2,7 +2,7 @@
   "name": "Euro Coin (Mock)",
   "symbol": "EURC",
   "description": "Mock EURC for OTC desk testing",
-  "image": "https://raw.githubusercontent.com/YOUR_USER/YOUR_REPO/main/metadata/EURC.svg",
+  "image": "https://raw.githubusercontent.com/fairway-global/otc-stablecoins/main/metadata/EURC.svg",
   "external_url": "",
   "attributes": [
     {

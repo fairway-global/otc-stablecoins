@@ -2,7 +2,7 @@
   "name": "Tether USD (Mock)",
   "symbol": "USDT",
   "description": "Mock USDT for OTC desk testing",
-  "image": "https://raw.githubusercontent.com/YOUR_USER/YOUR_REPO/main/metadata/USDT.svg",
+  "image": "https://raw.githubusercontent.com/fairway-global/otc-stablecoins/main/metadata/USDT.svg",
   "external_url": "",
   "attributes": [
     {

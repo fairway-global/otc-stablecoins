@@ -2,7 +2,7 @@
   "name": "USX (Mock)",
   "symbol": "USX",
   "description": "Mock USX Solstice synthetic stablecoin for OTC desk testing on Solana devnet",
-  "image": "https://raw.githubusercontent.com/YOUR_USER/YOUR_REPO/main/metadata/USX.svg",
+  "image": "https://raw.githubusercontent.com/fairway-global/otc-stablecoins/main/metadata/USX.svg",
   "external_url": "https://solstice.finance/usx",
   "attributes": [
     {
