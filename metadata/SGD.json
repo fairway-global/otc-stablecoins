@@ -1,13 +1,17 @@
 {
   "name": "Singapore Dollar Stable (Mock)",
   "symbol": "SGD",
-  "description": "Mock SGD for OTC desk testing",
+  "description": "Mock Singapore Dollar stablecoin for OTC desk testing on Solana devnet",
   "image": "https://raw.githubusercontent.com/fairway-global/otc-stablecoins/main/metadata/SGD.svg",
-  "external_url": "",
+  "external_url": "https://github.com/your-org/otc-desk",
   "attributes": [
     {
       "trait_type": "Type",
       "value": "Mock Stablecoin"
+    },
+    {
+      "trait_type": "Peg",
+      "value": "S$"
     },
     {
       "trait_type": "Network",

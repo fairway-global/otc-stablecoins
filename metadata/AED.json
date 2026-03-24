@@ -1,13 +1,17 @@
 {
   "name": "UAE Dirham Stable (Mock)",
   "symbol": "AED",
-  "description": "Mock AED for OTC desk testing",
+  "description": "Mock UAE Dirham stablecoin for OTC desk testing on Solana devnet",
   "image": "https://raw.githubusercontent.com/fairway-global/otc-stablecoins/main/metadata/AED.svg",
-  "external_url": "",
+  "external_url": "https://github.com/your-org/otc-desk",
   "attributes": [
     {
       "trait_type": "Type",
       "value": "Mock Stablecoin"
+    },
+    {
+      "trait_type": "Peg",
+      "value": "د.إ"
     },
     {
       "trait_type": "Network",

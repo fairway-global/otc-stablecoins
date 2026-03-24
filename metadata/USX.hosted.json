@@ -3,11 +3,15 @@
   "symbol": "USX",
   "description": "Mock USX Solstice synthetic stablecoin for OTC desk testing on Solana devnet",
   "image": "https://raw.githubusercontent.com/fairway-global/otc-stablecoins/main/metadata/USX.svg",
-  "external_url": "https://solstice.finance/usx",
+  "external_url": "https://github.com/your-org/otc-desk",
   "attributes": [
     {
       "trait_type": "Type",
       "value": "Mock Stablecoin"
+    },
+    {
+      "trait_type": "Peg",
+      "value": "USX"
     },
     {
       "trait_type": "Network",
@@ -20,10 +24,6 @@
     {
       "trait_type": "Program",
       "value": "Token-2022"
-    },
-    {
-      "trait_type": "Issuer",
-      "value": "Solstice Labs (Mock)"
     }
   ]
 }
