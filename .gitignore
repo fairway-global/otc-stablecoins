@@ -1,0 +1,4 @@
+# fill git igonre
+# ignore .env file with secrets
+.env
+node_modules

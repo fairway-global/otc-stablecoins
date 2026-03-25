@@ -2,7 +2,7 @@
   "name": "Tether USD (Mock)",
   "symbol": "USDT",
   "description": "Mock USDT stablecoin for OTC desk testing on Solana devnet",
-  "image": "https://raw.githubusercontent.com/fairway-global/otc-stablecoins/main/metadata/USDT.svg",
+  "image": "https://raw.githubusercontent.com/fairway-global/otc-stablecoins/main/metadata/USDT.svg?v=2",
   "external_url": "https://github.com/your-org/otc-desk",
   "attributes": [
     {
@@ -11,7 +11,7 @@
     },
     {
       "trait_type": "Peg",
-      "value": "₮"
+      "value": "\u20ae"
     },
     {
       "trait_type": "Network",
