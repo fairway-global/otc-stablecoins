@@ -9,5 +9,5 @@
   <circle cx="128" cy="128" r="116" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-opacity="0.15" />
   <text x="128" y="128" text-anchor="middle" dominant-baseline="central"
     font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
-    font-size="80" font-weight="700" fill="#FFFFFF">د.إ</text>
+    font-size="80" font-weight="700" fill="#FFFFFF">AED</text>
 </svg>

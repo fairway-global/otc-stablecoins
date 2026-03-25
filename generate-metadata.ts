@@ -41,6 +41,7 @@ interface CoinDesign {
   textColor: string;     // symbol text color
   accentColor: string;   // ring/accent
   currencySign: string;  // $ € £ ¥ etc for the icon
+  svgOverride?: string;  // custom SVG inner content (for non-Latin symbols)
 }
 
 const COIN_DESIGNS: CoinDesign[] = [
@@ -115,6 +116,14 @@ const COIN_DESIGNS: CoinDesign[] = [
     textColor: "#FFFFFF",
     accentColor: "#8C0022",
     currencySign: "¥",
+    svgOverride: [
+      // ¥ as SVG paths — Phantom can't render ¥ as text
+      '<path d="M78,50 L128,118" stroke="#FFFFFF" stroke-width="14" stroke-linecap="round" fill="none"/>',
+      '<path d="M178,50 L128,118" stroke="#FFFFFF" stroke-width="14" stroke-linecap="round" fill="none"/>',
+      '<line x1="128" y1="118" x2="128" y2="210" stroke="#FFFFFF" stroke-width="14" stroke-linecap="round"/>',
+      '<line x1="88" y1="140" x2="168" y2="140" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round"/>',
+      '<line x1="88" y1="168" x2="168" y2="168" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round"/>',
+    ].join("\n  "),
   },
   {
     symbol: "SGD",
@@ -132,7 +141,7 @@ const COIN_DESIGNS: CoinDesign[] = [
     bgColor: "#006233",
     textColor: "#FFFFFF",
     accentColor: "#004D28",
-    currencySign: "د.إ",
+    currencySign: "AED",
   },
   {
     symbol: "USX",
@@ -149,6 +158,12 @@ function generateSVG(design: CoinDesign): string {
   // Large, bold font sizes — optimized for ~40px display in wallets
   const signFontSize = design.currencySign.length > 2 ? 80 : 120;
 
+  const symbolContent = design.svgOverride
+    ? design.svgOverride
+    : `<text x="128" y="128" text-anchor="middle" dominant-baseline="central"
+    font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
+    font-size="${signFontSize}" font-weight="700" fill="${design.textColor}">${escapeXml(design.currencySign)}</text>`;
+
   return `<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -158,9 +173,7 @@ function generateSVG(design: CoinDesign): string {
   </defs>
   <circle cx="128" cy="128" r="128" fill="url(#bg)" />
   <circle cx="128" cy="128" r="116" fill="none" stroke="${design.textColor}" stroke-width="4" stroke-opacity="0.15" />
-  <text x="128" y="128" text-anchor="middle" dominant-baseline="central"
-    font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
-    font-size="${signFontSize}" font-weight="700" fill="${design.textColor}">${escapeXml(design.currencySign)}</text>
+  ${symbolContent}
 </svg>`;
 }
 
