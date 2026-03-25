@@ -2,7 +2,7 @@
   "name": "British Pound Stable (Mock)",
   "symbol": "GBP",
   "description": "Mock British Pound stablecoin for OTC desk testing on Solana devnet",
-  "image": "https://raw.githubusercontent.com/fairway-global/otc-stablecoins/main/metadata/GBP.svg?v=2",
+  "image": "https://raw.githubusercontent.com/fairway-global/otc-stablecoins/main/metadata/GBP.png",
   "external_url": "https://github.com/your-org/otc-desk",
   "attributes": [
     {
@@ -11,7 +11,7 @@
     },
     {
       "trait_type": "Peg",
-      "value": "£"
+      "value": "\u00a3"
     },
     {
       "trait_type": "Network",

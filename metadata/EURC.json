@@ -2,7 +2,7 @@
   "name": "Euro Coin (Mock)",
   "symbol": "EURC",
   "description": "Mock EURC euro stablecoin for OTC desk testing on Solana devnet",
-  "image": "https://raw.githubusercontent.com/fairway-global/otc-stablecoins/main/metadata/EURC.svg?v=2",
+  "image": "https://raw.githubusercontent.com/fairway-global/otc-stablecoins/main/metadata/EURC.png",
   "external_url": "https://github.com/your-org/otc-desk",
   "attributes": [
     {
@@ -11,7 +11,7 @@
     },
     {
       "trait_type": "Peg",
-      "value": "€"
+      "value": "\u20ac"
     },
     {
       "trait_type": "Network",

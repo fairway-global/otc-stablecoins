@@ -2,7 +2,7 @@
   "name": "Swiss Franc Stable (Mock)",
   "symbol": "CHF",
   "description": "Mock Swiss Franc stablecoin for OTC desk testing on Solana devnet",
-  "image": "https://raw.githubusercontent.com/fairway-global/otc-stablecoins/main/metadata/CHF.svg?v=2",
+  "image": "https://raw.githubusercontent.com/fairway-global/otc-stablecoins/main/metadata/CHF.png",
   "external_url": "https://github.com/your-org/otc-desk",
   "attributes": [
     {

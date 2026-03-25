@@ -2,7 +2,7 @@
   "name": "USD Coin (Mock)",
   "symbol": "USDC",
   "description": "Mock USDC stablecoin for OTC desk testing on Solana devnet",
-  "image": "https://raw.githubusercontent.com/fairway-global/otc-stablecoins/main/metadata/USDC.svg?v=2",
+  "image": "https://raw.githubusercontent.com/fairway-global/otc-stablecoins/main/metadata/USDC.png",
   "external_url": "https://github.com/your-org/otc-desk",
   "attributes": [
     {

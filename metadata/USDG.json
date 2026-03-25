@@ -2,7 +2,7 @@
   "name": "Global Dollar (Mock)",
   "symbol": "USDG",
   "description": "Mock USDG stablecoin for OTC desk testing on Solana devnet",
-  "image": "https://raw.githubusercontent.com/fairway-global/otc-stablecoins/main/metadata/USDG.svg?v=2",
+  "image": "https://raw.githubusercontent.com/fairway-global/otc-stablecoins/main/metadata/USDG.png",
   "external_url": "https://github.com/your-org/otc-desk",
   "attributes": [
     {

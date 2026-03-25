@@ -242,7 +242,7 @@ function main() {
     fs.writeFileSync(svgPath, svg);
 
     // Use hosted SVG URL (data URIs don't work in Phantom/Solflare)
-    const hostedImageUrl = `https://raw.githubusercontent.com/fairway-global/otc-stablecoins/main/metadata/${design.symbol}.svg?v=2`;
+    const hostedImageUrl = `https://raw.githubusercontent.com/fairway-global/otc-stablecoins/main/metadata/${design.symbol}.png`;
 
     // Generate metadata JSON with hosted SVG URL
     const metadata = generateMetadataJSON(design, hostedImageUrl);

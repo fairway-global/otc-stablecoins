@@ -2,7 +2,7 @@
   "name": "Japanese Yen Stable (Mock)",
   "symbol": "JPY",
   "description": "Mock Japanese Yen stablecoin for OTC desk testing on Solana devnet",
-  "image": "https://raw.githubusercontent.com/fairway-global/otc-stablecoins/main/metadata/JPY.svg?v=2",
+  "image": "https://raw.githubusercontent.com/fairway-global/otc-stablecoins/main/metadata/JPY.png",
   "external_url": "https://github.com/your-org/otc-desk",
   "attributes": [
     {
@@ -11,7 +11,7 @@
     },
     {
       "trait_type": "Peg",
-      "value": "¥"
+      "value": "\u00a5"
     },
     {
       "trait_type": "Network",
